@@ -4,8 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This is QR Code</title>
-</head>
-<body>
+
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+
+
+</head> 
+<body style="background-color: hsl(212, 45%, 89%); min-height: 100vh; display: flex;">
+
+    <style>
+        .card-container{
+            max-width: 320px ;
+            margin: auto;
+           
+        }
+        .card-inner-container{
+              display: flex;
+              background: white;
+               border-radius:20px;
+            flex-direction: column;
+            padding: 16px 16px 40px 16px;
+           align-items: center;
+          text-align: center;
+           -webkit-box-shadow: 10px 6px 54px -20px rgba(242,162,242,1);
+-moz-box-shadow: 10px 6px 54px -20px rgba(242,162,242,1);
+box-shadow: 10px 6px 54px -20px rgba(242,162,242,1);
+    
+            
+        }
+    </style>
+
+    <div class="card-container">
+        <div class="card-inner-container">
+            <img style="margin-bottom: 24px;" src="/public/QR Image.png" alt="">
+        <div class="text-para">
+            <h3>Improve your front-end skills by building projects</h3>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        </div>
+        </div>
+    </div>
     
 </body>
 </html>

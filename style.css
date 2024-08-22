@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+h1,h3,p{
+    font-family: Outfit;
+
+}
+
+p{
+    font-weight: 200;
+}
+
+.text-para{
+    display: flex;
+    padding: 0px 16px;
+    flex-direction: column;
+    gap: 16px;
+}
